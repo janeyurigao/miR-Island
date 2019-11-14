@@ -19,7 +19,7 @@ Several dependencies are required to run miR_Island.
 
 INSTALL MIR_ISLAND
 
-Download the .tar.gz file from http://www.ncrna.net/tools/miR-island_v1.0.tar.gz and unpack. Then put the scripts into your PATH. This is done by typing the following lines:
+Download the .tar.gz file from **** and unpack. Then put the scripts into your PATH. This is done by typing the following lines:
 echo 'export PATH=/path/to/miR_island:$PATH' >> ~/.bashrc
 source ~/.bashrc
 Note: "/path/to/miR_island" should be changed to the real location of miR_island folder.
