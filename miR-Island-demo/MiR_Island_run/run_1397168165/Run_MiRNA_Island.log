@@ -1,0 +1,48 @@
+/usr/local/bin/miR-island/miR_island.pl -g /home/lenovo/database/TAIR10.fa -c dicot -r ../../data/ath/SRR275588_trimmed_letter.fa -p 4 -x ath_coords.list
+
+Fri Apr 11 06:16:05 2014
+mkdir MiR_Island_run/run_1397168165
+
+Fri Apr 11 06:16:05 2014
+Checking installed binaries ... done
+
+Fri Apr 11 06:16:05 2014
+Checking CPU cores ... WARNING: Your machine has 2 cpu cores, the parametre may be incorrect
+done
+
+Fri Apr 11 06:16:05 2014
+Checking input files
+Formatting file ../../data/ath/SRR275588_trimmed_letter.fa ... done
+Combine all clean reads ... done
+Checking genome file ... done
+
+Fri Apr 11 06:19:53 2014
+Analyzing known miRNA differential gene expression ... done
+Sorry, mature miRNA is not available.
+Known miRNA expression analysis is ignored.
+Fri Apr 11 06:19:53 2014
+Checking genome bowtie index file ... done
+Bowtie indices file is available.
+
+Fri Apr 11 06:19:53 2014
+Mapping reads to reference genome ... done
+
+Fri Apr 11 06:21:09 2014
+Excising potential precursors ... done
+
+Fri Apr 11 06:25:32 2014
+Preparing second structure, this step may take several minites ... done
+
+Fri Apr 11 06:34:02 2014
+Final miRNA prediction ... done
+
+Fri Apr 11 06:35:33 2014
+Fianl check ... done
+
+Flag genes ... Fri Apr 11 06:35:33 2014
+Denovo differential miRNA expression analysis ... done
+
+Mission complete.
+
+Fri Apr 11 06:35:58 2014
+
