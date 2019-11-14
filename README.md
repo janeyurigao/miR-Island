@@ -17,9 +17,9 @@ Several dependencies are required to run miR_Island.
 
 5: Bio::DB::Sam (used to handle the SAM/BAM format alignment ). When you install Bio::DB::Sam module, you should depress the tar.gz of samtools and change directory to the depressed folder, then run "make CXXFLAGS=-fPIC CFLAGS=-fPIC CPPFLAGS=-fPIC". At last, you install Bio::DB::Sam module.
 
-INSTALL MIR_ISLAND
+INSTALL miR_Island
 
-Download the .tar.gz file and unpack. Then put the scripts into your PATH. This is done by typing the following lines:
+Download the zip file and unpack. Then put the scripts into your PATH. This is done by typing the following lines:
 
 echo 'export PATH=/path/to/miR_island:$PATH' >> ~/.bashrc
 
