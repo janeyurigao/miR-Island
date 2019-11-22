@@ -6,7 +6,7 @@ use Getopt::Std;
 use threads;
 use Thread::Queue;
 
-my $version = "1.0";
+my $version = "2.0";
 my ($precursor, $nb_process, $tmp_struct_dir, $structure);
 my %opts=();
 getopts("hi:d:o:p:v",\%opts);
