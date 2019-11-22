@@ -5,7 +5,7 @@ use warnings;
 use Getopt::Std;
 
 use constant DEBUG => 0;
-my $version = "1.0";
+my $version = "2.0";
 
 my ($cotyledon,$mfe,$min_freq,$genome,$flag,$index,$genome_index,$known_miRNA,$hairpin_lng,$map_time,$nb_process,$reads,$time,$coord_file);
 
