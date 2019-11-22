@@ -7,7 +7,7 @@ use Getopt::Std;
 my %opts=();
 
 getopt("d:o:i:t:hv",\%opts);
-my $version = "1.0";
+my $version = "2.0";
 my ($data, $out, $index, $trans);
 &var_check();
 
