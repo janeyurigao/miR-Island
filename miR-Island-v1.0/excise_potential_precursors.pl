@@ -7,7 +7,7 @@ use Bio::DB::Sam;
 use Getopt::Std;
 
 my %opts = ();
-my $version = "1.0";
+my $version = "2.0";
 getopts("b:l:m:o:r:hv", \%opts);
 &var_check();
 
