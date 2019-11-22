@@ -12,7 +12,7 @@ use Bio::DB::Sam;
 ################################### INPUT ##################################################
 
 my ($sorted_bam_file,$file_struct,$genome,$cotyledon,$file_mature,$result_out,$table_out,$col1_width,$coords_file);
-my $version = "1.0";
+my $version = "2.0";
 my %options = ();
 getopts("a:b:c:g:hl:m:r:s:t:v", \%options);
 
