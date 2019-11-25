@@ -868,7 +868,7 @@ sub var_check{
 	    $mfe=$opts{'e'};
     }
     unless ($opts{'f'}){
-	    $min_freq=15;
+	    $min_freq=75;
     }else{
 	    $min_freq=$opts{'f'};
     }
@@ -918,7 +918,7 @@ sub var_error {
     print "\n";
     print " OPTIONAL:\n";
     print " -e <min_mfe>     maximum threshold MFE to be annotated as a potential precursor (def: -17.5)\n";
-	print " -f <int>         minimum frequency of reads to trigger a precursor excising (def: 15)\n";
+	print " -f <int>         minimum frequency of reads to trigger a precursor excising (def: 75)\n";
 	print " -i <bowtie_ebwt> prefix of the reference genome's bowtie indexes file (def: same as option \"g\")\n";
 	print " -k <miRNA.fa>    known miRNAs of the related species in multi-fasta format\n";
     print " -l <int>         maximum length of the potential precursor to be excised (def: 277)\n";
