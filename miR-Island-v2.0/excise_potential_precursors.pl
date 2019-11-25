@@ -303,7 +303,7 @@ sub var_check{
 	if($opts{m}){
 		$min_freq = $opts{m}; 
 	}else{
-		$min_freq = 15;
+		$min_freq = 75;
 	}
 	if($opts{r}){
 		$reference = $opts{r}; 
